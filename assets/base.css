@@ -3601,7 +3601,10 @@ details-disclosure > details {
 
 
 /* CSS FOR BANNER */
-
+.banner{
+  max-width:120rem;
+  margin: 0 auto;
+}
 .banner-container {
   display: flex;
   align-items: center;
