@@ -3656,41 +3656,45 @@ details-disclosure > details {
   margin: 0;
   object-fit: cover;
 } */
-
 .banner-container {
   display: flex;
-  align-items: center; /* Vertically centers the content and image */
+  align-items: center; /* Vertically centers the content */
   justify-content: flex-start; /* Aligns content to the left */
   background-color: #fff;
-  margin-top: -30px; /* Adjust to match the margin between top and content */
-  padding-left: 50px; /* Adjust this value to align with the top image */
+  margin-top: -30px; /* Keep this to adjust alignment with the image */
+  padding-left: 50px; /* Fine-tune for horizontal alignment */
+  padding-right: 50px; /* Ensure some padding on the right side as well */
 }
 
 .banner-content {
-  width: 55%; /* Adjusts width of the content */
+  width: 50%; /* Adjust width to prevent content from stretching too far */
+  margin-right: 20px; /* Adds some spacing between content and the image */
 }
 
 .banner-content h1 {
-  font-size: 70px;
+  font-size: 60px; /* Adjusted font size for better balance */
   font-weight: bold;
-  line-height: 70px;
+  line-height: 1.2; /* Set a relative line-height for responsiveness */
+  margin-bottom: 20px; /* Space between heading and paragraph */
 }
 
 .banner-content p {
-  font-size: 20px;
+  font-size: 18px; /* Slightly smaller font size */
   margin-top: 10px;
   font-weight: 400;
   color: black;
-  line-height: 28px;
+  line-height: 1.5; /* Increase line height for readability */
+  margin-bottom: 20px; /* More space between paragraph and button */
 }
 
 .banner-button {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 12px 24px; /* Adjust padding for a larger button */
   background-color: #000;
   color: #fff;
   text-decoration: none;
   margin-top: 20px;
+  border-radius: 4px; /* Add some rounding to the button */
   transition: background-color 0.3s;
 }
 
@@ -3699,19 +3703,20 @@ details-disclosure > details {
 }
 
 .banner-img_bottom {
-  width: 100%; /* Adjusts the width to be side by side with content */
+  width: 50%; /* Align image width with content for side-by-side layout */
+  height: auto;
 }
 
 .banner-img_bottom img {
-  width: 100%; /* Ensures image stretches the full width */
-  height: 100%; /* Ensures the image fills the div */
-  object-fit: cover; /* Ensures the image covers the entire div */
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Ensures the image covers the available area */
 }
 
 .banner-img_top {
   width: 100%;
   text-align: center;
-  margin-bottom: -30px; /* Adjust this value to match the margin with the content */
+  margin-bottom: -30px; /* Adjust this to match the content */
 }
 
 .banner-img_top img {
