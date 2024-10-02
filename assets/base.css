@@ -3647,6 +3647,7 @@ details-disclosure > details {
   text-align:center;
   line-height:50px;
   transition: background 0.5s;
+  color: white;
 }
 .banner-button {
   width:50%;
