@@ -3641,3 +3641,9 @@ details-disclosure > details {
   max-width: 100%;
   object-fit: cover;
 }
+
+.banner-img_top img{
+  max-width: 100%;
+  object-fit: cover;
+  padding-left:10px;
+}
