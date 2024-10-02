@@ -3601,7 +3601,7 @@ details-disclosure > details {
 
 
 /* CSS FOR BANNER */
-/* 
+
 .banner-container {
   display: flex;
   align-items: center;
@@ -3652,72 +3652,4 @@ details-disclosure > details {
   margin: 0;
   object-fit: cover;
 }
- */
 
-/* Main container for the banner */
-.banner-container {
-    display: flex;
-    flex-direction: column; /* Stacks the elements vertically */
-    align-items: center; /* Center horizontally */
-    position: relative; /* Allows absolute positioning of images */
-    padding: 50px 20px; /* Add padding to the container */
-    max-width: 1200px; /* Limits the container width */
-    margin: 0 auto; /* Center container horizontally */
-}
-
-/* Top image styling */
-.banner-img_top {
-    width: 100%; /* Full width for the top image */
-    display: flex;
-    justify-content: center;
-    margin-bottom: -20px; /* Slight overlap with the content */
-}
-
-.banner-img_top img {
-    width: 100%; /* Adjust width based on design */
-    height: auto; /* Maintain aspect ratio */
-}
-
-/* Content styling */
-.banner-content {
-    text-align: center;
-    z-index: 1; /* Ensures content is above images */
-}
-
-.banner-content h1 {
-    font-size: 48px;
-    font-weight: bold;
-}
-
-.banner-content p {
-    font-size: 18px;
-    margin-top: 10px;
-    color: #666;
-}
-
-.banner-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #000;
-    color: #fff;
-    text-decoration: none;
-    margin-top: 20px;
-    transition: background-color 0.3s;
-}
-
-.banner-button:hover {
-    background-color: #ff0000;
-}
-
-/* Bottom image styling */
-.banner-img_bottom {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: -50px; /* Adjusts to slightly overlap with content */
-}
-
-.banner-img_bottom img {
-    width: 100%; /* Adjust width based on design */
-    height: auto; /* Maintain aspect ratio */
-}
