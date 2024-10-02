@@ -3706,8 +3706,6 @@ details-disclosure > details {
   width: 100%; /* Ensures image stretches the full width */
   height: 100%; /* Ensures the image fills the div */
   object-fit: cover; /* Ensures the image covers the entire div */
-   /* width: 50%;  */
-  flex-grow: 1;
 }
 
 .banner-img_top {
