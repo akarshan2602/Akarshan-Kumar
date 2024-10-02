@@ -3647,7 +3647,7 @@ details-disclosure > details {
   cursor: pointer;            /* Pointer cursor on hover */
   display: inline-flex;       /* Use flexbox for alignment */
   align-items: center;        /* Vertically centers text and icon */
-  justify-content: center;    /* Centers content horizontally */
+  justify-content: space-around;    /* Centers content horizontally */
   text-align: center;         /* Center text alignment */
   line-height: 55px;         /* Line height for vertical centering (if needed) */
   transition: background 0.5s; /* Smooth background transition */
