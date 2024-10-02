@@ -1,18 +1,22 @@
-<section class="banner">
-  <div class="banner-img_top">
-      <img src="{{ 'Frame_top.png' | asset_url }}" alt="Banner Image">
-  </div>
-  <div class="banner-container">
+<section class="banner-container">
+    <!-- Top Image -->
+    <div class="banner-img_top">
+        <img src="{{ 'top_image_url_here' | asset_url }}" alt="Top Banner Image">
+    </div>
+
+    <!-- Banner Content -->
     <div class="banner-content">
-    <h1>{{ section.settings.banner_heading }} </h1>
-    <p>{{ section.settings.banner_subheading }}</p>
-    <a href="{{ section.settings.button_link }}" class="animated-button banner-button">{{ section.settings.button_text }}</a>
-  </div>
-  <div class="banner-img_bottom">
-      <img src="{{ 'Frame_bottom.png' | asset_url }}" alt="Banner Image">
-  </div>
-  </div>
+        <h1>{{ section.settings.banner_heading }}</h1>
+        <p>{{ section.settings.banner_subheading }}</p>
+        <a href="{{ section.settings.button_link }}" class="banner-button">{{ section.settings.button_text }}</a>
+    </div>
+
+    <!-- Bottom Image -->
+    <div class="banner-img_bottom">
+        <img src="{{ 'bottom_image_url_here' | asset_url }}" alt="Bottom Banner Image">
+    </div>
 </section>
+
 
 
 {% schema %}
