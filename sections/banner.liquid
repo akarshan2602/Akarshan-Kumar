@@ -2,13 +2,15 @@
   <div class="banner-img_top">
       <img src="{{ 'Frame_top.png' | asset_url }}" alt="Banner Image">
   </div>
-  <div class="banner-content">
+  <div class="banner-container">
+    <div class="banner-content">
     <h1>{{ section.settings.banner_heading }} </h1>
     <p>{{ section.settings.banner_subheading }}</p>
     <a href="{{ section.settings.button_link }}" class="animated-button banner-button">{{ section.settings.button_text }}</a>
   </div>
   <div class="banner-img_bottom">
       <img src="{{ 'Frame_bottom.png' | asset_url }}" alt="Banner Image">
+  </div>
   </div>
 </section>
 
