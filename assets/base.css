@@ -3639,7 +3639,7 @@ details-disclosure > details {
 .banner-img_buttom img{
   width: 100%;
   height:auto;
-  /* object-fit: cover; */
+  object-fit: cover;
 }
 .banner-img_top{
   width:100%;
