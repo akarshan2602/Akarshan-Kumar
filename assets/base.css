@@ -3637,7 +3637,8 @@ details-disclosure > details {
   background-color: #ff0000;
 }
 .banner-img_buttom img{
-  max-width: 100%;
+  width: 80%;
+  height:auto;
   object-fit: cover;
 }
 
