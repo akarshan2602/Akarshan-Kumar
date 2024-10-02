@@ -3604,7 +3604,7 @@ details-disclosure > details {
 .banner-container {
   display: flex;
   align-items: center;
-  justify-content:space-between;
+  /* justify-content:space-between; */
   background-color: #fff;
 }
 
