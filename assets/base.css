@@ -3610,6 +3610,7 @@ details-disclosure > details {
 
 .banner-content{
   max-width:50%;
+  margin-top:-30px;
 }
 .banner-content h1{
   font-size: 70px;
