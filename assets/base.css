@@ -3620,7 +3620,7 @@ details-disclosure > details {
   font-size: 70px;
   font-weight: bold;
   line-height: 1.2;
-  margin-bottom: 20px; /* Space between heading and paragraph */
+  letter-spacing: 7px;
 }
 
 .banner-content p {
@@ -3650,6 +3650,7 @@ details-disclosure > details {
 .banner-img_bottom {
   flex-grow: 1; /* Allows the image to take up available space */
   margin-left: 20px; /* Adds space between content and image */
+  margin-top:30px;
 }
 
 .banner-img_bottom img {
