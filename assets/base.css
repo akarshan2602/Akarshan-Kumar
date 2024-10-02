@@ -3668,15 +3668,16 @@ details-disclosure > details {
 .banner-container {
   display: flex;
   align-items: center; /* Vertically centers the content */
-  justify-content: space-between; /* Ensure proper spacing between content and image */
+  justify-content: space-between; /* Ensures proper spacing between content and image */
   background-color: #fff;
   margin-top: -30px; /* Adjust to match the margin between top and content */
   padding-left: 50px; /* Adjust to align content properly */
-  padding-right: 50px; /* Added to keep some padding on the right */
+  padding-right: 0; /* No extra padding on the right */
+  overflow: hidden; /* Prevents horizontal scrolling */
 }
 
 .banner-content {
-  max-width: 50%; /* Limits content width but allows image to take more space */
+  max-width: 50%; /* Adjust the width of content */
 }
 
 .banner-content h1 {
@@ -3716,7 +3717,7 @@ details-disclosure > details {
 }
 
 .banner-img_bottom img {
-  width: 100%; /* Ensures the image stretches to fill its container */
+  width: 100%; /* Ensures the image stretches the full container width */
   height: auto;
   object-fit: cover;
 }
