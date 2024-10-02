@@ -3623,6 +3623,7 @@ details-disclosure > details {
   font-weight: bold;
   line-height: 1.2;
   letter-spacing: 3px;
+    font-family: 'Jost', sans-serif;
 }
 
 .banner-content p {
@@ -3673,13 +3674,16 @@ details-disclosure > details {
   display: block;
   object-fit: cover;
 }
+
+/* CUSTOM FONT */
 @font-face {
   font-family: 'Jost';
   src: url('{{ 'Jost-Medium.ttf' | asset_url }}') format('ttf'),
   font-weight: 500; /* or the weight you uploaded */
   font-style: normal;
 }
-/* text-image close */
+
+/* text-image space close */
 .banner-content h1 {
   margin-bottom: 10px; /* Reduce space below the heading */
 }
