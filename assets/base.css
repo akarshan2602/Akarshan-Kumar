@@ -3648,6 +3648,11 @@ details-disclosure > details {
   line-height:50px;
   transition: background 0.5s;
 }
+.banner-button {
+  width:50%;
+  max-width:220px;
+  height:55px;
+}
 
 .banner-button:hover {
   background-color: #ff0000;
