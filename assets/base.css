@@ -3669,11 +3669,11 @@ details-disclosure > details {
 .banner-container {
   display: flex;
   align-items: center; /* Vertically centers the content */
-  justify-content: space-between; /* Ensure proper spacing between content and image */
+  justify-content: space-between; /* Ensures proper spacing between content and image */
   background-color: #fff;
   margin-top: -30px; /* Adjust to match the margin between top and content */
   padding-left: 50px; /* Adjust to align content properly */
-  padding-right: 50px; /* Added to keep some padding on the right */
+  padding-right: 0; /* Removes the right padding */
 }
 
 .banner-content {
@@ -3717,9 +3717,10 @@ details-disclosure > details {
 }
 
 .banner-img_bottom img {
-  width: 100%; /* Ensures the image stretches to fill its container */
+  width: calc(100% + 50px); /* Ensures the image stretches beyond the container, closing the gap */
   height: auto;
   object-fit: cover;
+  margin-right: -50px; /* Pulls the image to the right to cover the entire width */
 }
 
 .banner-img_top {
