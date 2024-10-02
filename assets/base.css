@@ -3673,6 +3673,7 @@ details-disclosure > details {
 .banner-button:hover svg {
   margin-left: 15px;          /* Moves the arrow on hover */
   transition: margin-left 0.3s ease-in-out; /* Smooth transition for margin */
+  color:black;
 }
 
 
