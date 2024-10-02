@@ -3603,5 +3603,28 @@ details-disclosure > details {
 /* CSS FOR BANNER */
 
 .custom-banner {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  padding: 50px;
+  background-color: #fff;
+}
+
+.banner-content{
+  max-width:50%;
+}
+.banner-content h1{
+  font-size: 70px;
+  font-weight:500;
+  line-height:70px;
+}
+.banner-content p{
+  font-size:20px;
+  margin-top:10px;
+  font-weight:400;
+  color: black;
+  line-height:28px;
+}
+.banner-button:hover{
   
 }
