@@ -3693,13 +3693,7 @@ details-disclosure > details {
 }
 
 /* text-image space close */
-.banner-content h1 {
-  margin-bottom: 10px; /* Reduce space below the heading */
-}
 
-.banner-content p {
-  margin-bottom: 10px; /* Reduce space below the paragraph */
-}
 .banner-img_bottom img {
   margin-top: -10px; /* Decrease the space above the image */
 }
