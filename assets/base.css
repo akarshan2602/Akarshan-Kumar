@@ -3637,7 +3637,7 @@ details-disclosure > details {
   background-color: #ff0000;
 }
 .banner-img_buttom img{
-  width: 80%;
+  width: 100%;
   height:auto;
   object-fit: cover;
 }
@@ -3646,9 +3646,9 @@ details-disclosure > details {
   text-align:center;
 }
 .banner-img_top img{
-  width: 80%;
+  width: 100%;
   height:auto;
   display:block;
-  margin: 0 auto;
+  margin: 0;
   object-fit: cover;
 }
