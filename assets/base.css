@@ -3638,6 +3638,6 @@ details-disclosure > details {
   background-color: #ff0000;
 }
 .banner-image img{
-  max-width: 50% !important;
+  max-width: 50%;
   object-fit: cover;
 }
