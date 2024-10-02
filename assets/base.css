@@ -3637,7 +3637,7 @@ details-disclosure > details {
 .banner-button:hover{
   background-color: #ff0000;
 }
-.banner-image_buttom img{
+.banner-img_buttom img{
   max-width: 100%;
   object-fit: cover;
 }
