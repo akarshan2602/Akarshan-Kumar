@@ -3602,7 +3602,7 @@ details-disclosure > details {
 
 /* CSS FOR BANNER */
 
-.custom-banner {
+.banner {
   display: flex;
   align-items: center;
   justify-content:space-between;
@@ -3637,7 +3637,7 @@ details-disclosure > details {
 .banner-button:hover{
   background-color: #ff0000;
 }
-.banner-image_top img{
-  max-width: 100%;
+.banner-image img{
+  max-width: 50%;
   object-fit: cover;
 }
