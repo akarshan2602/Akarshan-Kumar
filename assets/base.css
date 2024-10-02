@@ -3636,34 +3636,38 @@ details-disclosure > details {
 }
 
 .banner-button {
-  display: inline-flex; /* Use flexbox for alignment */
-  align-items: center;  /* Vertically centers the text and icon */
-  padding: 12px 24px;
-  background-color: #000;
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-top: 20px;
-  border-radius: 4px;
-  transition: background-color 0.3s;
+  margin-top: 10px;           /* Space above the button */
+  width: 50%;                 /* Button width (adjustable) */
+  max-width: 220px;          /* Maximum width of the button */
+  height: 55px;               /* Button height */
+  background-color: #000;     /* Background color */
+  border: none;               /* No border */
+  border-radius: 3px;        /* Rounded corners */
+  font-size: 16px;           /* Font size */
+  cursor: pointer;            /* Pointer cursor on hover */
+  display: inline-flex;       /* Use flexbox for alignment */
+  align-items: center;        /* Vertically centers text and icon */
+  justify-content: center;    /* Centers content horizontally */
+  text-align: center;         /* Center text alignment */
+  line-height: 55px;         /* Line height for vertical centering (if needed) */
+  transition: background 0.5s; /* Smooth background transition */
+  color: white;               /* Text color */
 }
 
 .banner-button svg {
-  width: 24px; /* Adjust width as needed */
-  height: 24px; /* Adjust height as needed */
   margin-left: 10px; /* Space between text and arrow */
-  fill: #fff; /* Color of the arrow */
+  fill: #fff;        /* Color of the arrow */
+  width: 20px;       /* Set width of the SVG icon */
+  height: 20px;      /* Set height of the SVG icon */
 }
 
-/* Optional: Hover effects */
 .banner-button:hover {
   background-color: #ff0000; /* Change background color on hover */
 }
 
 .banner-button:hover svg {
-  margin-left: 15px; /* Moves the icon slightly on hover */
-  transition: margin-left 0.3s;
+  margin-left: 15px; /* Moves the arrow on hover */
+  transition: margin-left 0.3s; /* Smooth transition for margin */
 }
 
 .banner-button:hover {
