@@ -3651,7 +3651,7 @@ details-disclosure > details {
   line-height: 55px;          /* Line height for vertical centering (if needed) */
   color: white;               /* Initial text color */
   transition: color 0.4s ease-in-out;
-  background: linear-gradient(to right, yellow 50%, #000 50%);
+  background: linear-gradient(to right, lightyellow 50%, #000 50%);
   background-size: 200%;  
   background-position: right; /* Initial background position */
 }
