@@ -3658,7 +3658,7 @@ details-disclosure > details {
   margin-left: 10px; /* Space between text and arrow */
   fill: #fff;        /* Color of the arrow */
   width: 30px;       /* Set width of the SVG icon */
-  height: 20px;      /* Set height of the SVG icon */
+  height: 30px;      /* Set height of the SVG icon */
 }
 
 .banner-button:hover {
