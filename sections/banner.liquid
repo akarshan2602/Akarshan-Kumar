@@ -1,0 +1,48 @@
+<section class="banner">
+  <div class="banner-img_top">
+      <img src="{{ 'Frame_top.png' | asset_url }}" alt="Banner Image">
+  </div>
+  <div class="banner-container">
+    <div class="banner-content">
+    <h1>{{ section.settings.banner_heading }} </h1>
+    <p>{{ section.settings.banner_subheading }}</p>
+    <a href="{{ section.settings.button_link }}" class="animated-button banner-button">{{ section.settings.button_text }}</a>
+  </div>
+  <div class="banner-img_bottom">
+      <img src="{{ 'Frame_bottom.png' | asset_url }}" alt="Banner Image">
+  </div>
+  </div>
+</section>
+
+
+{% schema %}
+  {
+    "name": "Banner",
+    "settings": [
+      {
+        "type": "text",
+        "id": "banner_heading",
+        "label": "Banner Heading",
+        "default": "The Gift Guide"
+      },
+      {
+        "type": "text",
+        "id": "banner_subheading",
+        "label": "Banner Subheading",
+        "default": "Discover Joy: Your Ultimate Holiday Gift Destination. <br>Explore our curated selection and find the perfect gifts to<br>delight your loved ones this holiday season."
+      },
+      {
+        "type": "url",
+        "id": "button_link",
+        "label": "Button Link"
+      },
+      {
+        "type": "text",
+        "id": "button_text",
+        "label": "Button Text",
+        "default": "Shop Now"
+      }
+    ]
+  }
+  
+{% endschema %}
