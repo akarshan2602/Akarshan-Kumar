@@ -3619,7 +3619,8 @@ details-disclosure > details {
 }
 .banner-content p{
   font-size:20px;
-  margin-top:10px;
+  /* margin-top:10px; */
+  margin-left: -30px;
   font-weight:400;
   color: black;
   line-height:28px;
