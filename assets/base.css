@@ -3601,17 +3601,17 @@ details-disclosure > details {
 
 
 /* CSS FOR BANNER */
-.banner-container {
+/* .banner-container {
   display: flex;
-  align-items: center; /* Vertically centers the content and image */
-  justify-content: flex-start; /* Aligns content to the left */
+  align-items: center;
+  justify-content: flex-start;
   background-color: #fff;
-  margin-top: -30px; /* Adjust to match the margin between top and content */
-  padding-left: 50px; /* Adjust this value to align with the top image */
+  margin-top: -30px; 
+  padding-left: 50px; 
 }
 
 .banner-content {
-  width: 55%; /* Adjusts width of the content */
+  width: 55%;
 }
 
 .banner-content h1 {
@@ -3663,7 +3663,7 @@ details-disclosure > details {
   height: auto;
   display: block;
   object-fit: cover;
-}
+} */
 /* CHATGPT */
 
 .banner-container {
