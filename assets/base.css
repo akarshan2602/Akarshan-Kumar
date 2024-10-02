@@ -3613,7 +3613,7 @@ details-disclosure > details {
 }
 .banner-content h1{
   font-size: 70px;
-  font-weight:500;
+  font-weight:bold;
   line-height:70px;
 }
 .banner-content p{
