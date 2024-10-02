@@ -3638,7 +3638,7 @@ details-disclosure > details {
 }
 .banner-img_buttom img{
    width: 100%;              /* Make the image take up the full width of the div */
-    height: 100%;             /* Make the image take up the full height of the div */
+    height: auto;             /* Make the image take up the full height of the div */
     object-fit: cover;        /* Ensures the image covers the entire div */
     object-position: center;
 }
