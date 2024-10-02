@@ -3664,7 +3664,7 @@ details-disclosure > details {
 }
 
 .banner-button:hover {
- background-position:left;
+ background-position:right;
   color: #000;
   transition: background-position 0.4s ease-in-out, color 0.4s ease-in-out;
 }
