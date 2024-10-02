@@ -3674,7 +3674,7 @@ details-disclosure > details {
 }
 
 .banner-img_top img {
-    width: 80%; /* Adjust width based on design */
+    width: 100%; /* Adjust width based on design */
     height: auto; /* Maintain aspect ratio */
 }
 
@@ -3718,6 +3718,6 @@ details-disclosure > details {
 }
 
 .banner-img_bottom img {
-    width: 80%; /* Adjust width based on design */
+    width: 100%; /* Adjust width based on design */
     height: auto; /* Maintain aspect ratio */
 }
