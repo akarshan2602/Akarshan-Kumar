@@ -3637,10 +3637,9 @@ details-disclosure > details {
   background-color: #ff0000;
 }
 .banner-img_buttom img{
-   width: 50%;              /* Make the image take up the full width of the div */
+   width: 100%;              /* Make the image take up the full width of the div */
     height: auto;             /* Make the image take up the full height of the div */
     object-fit: cover;        /* Ensures the image covers the entire div */
-    object-position: center;
 }
 .banner-img_top{
   width:100%;
