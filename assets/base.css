@@ -3656,6 +3656,15 @@ details-disclosure > details {
   height:55px;
 }
 
+.banner-button svg {
+  margin-left: 10px; /* Space between text and arrow */
+  fill: #fff; /* Color of the arrow */
+}
+
+.banner-button:hover svg {
+  margin-left: 15px; /* Moves the arrow on hover */
+  transition: margin-left 0.3s;
+}
 .banner-button:hover {
   background-color: #ff0000;
 }
