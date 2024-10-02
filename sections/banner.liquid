@@ -6,7 +6,7 @@
     <div class="banner-content">
     <h1>{{ section.settings.banner_heading }} </h1>
     <p>{{ section.settings.banner_subheading }}</p>
-    <a href="{{ section.settings.button_link }}" class="animated-button banner-button">{{ section.settings.button_text }}</a>
+    <button class="animated-button banner-button" onClick="location.href='{{ section.settings.button_link }}'">{{ section.settings.button_text }}</button>
   </div>
   <div class="banner-img_bottom">
       <img src="{{ 'Frame_bottom.png' | asset_url }}" class="banner-img" alt="Banner Image">
