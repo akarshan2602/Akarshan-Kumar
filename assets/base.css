@@ -3601,70 +3601,6 @@ details-disclosure > details {
 
 
 /* CSS FOR BANNER */
-/* .banner-container {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  background-color: #fff;
-  margin-top: -30px; 
-  padding-left: 50px; 
-}
-
-.banner-content {
-  width: 55%;
-}
-
-.banner-content h1 {
-  font-size: 70px;
-  font-weight: bold;
-  line-height: 70px;
-}
-
-.banner-content p {
-  font-size: 20px;
-  margin-top: 10px;
-  font-weight: 400;
-  color: black;
-  line-height: 28px;
-}
-
-.banner-button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #000;
-  color: #fff;
-  text-decoration: none;
-  margin-top: 20px;
-  transition: background-color 0.3s;
-}
-
-.banner-button:hover {
-  background-color: #ff0000;
-}
-
-.banner-img_bottom {
-  width: 100%;
-}
-
-.banner-img_bottom img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.banner-img_top {
-  width: 100%;
-  text-align: center;
-  margin-bottom: -30px;
-}
-
-.banner-img_top img {
-  width: 100%;
-  height: auto;
-  display: block;
-  object-fit: cover;
-} */
-/* CHATGPT */
 .banner-container {
   display: flex;
   align-items: center; /* Vertically centers the content */
@@ -3733,4 +3669,19 @@ details-disclosure > details {
   height: auto;
   display: block;
   object-fit: cover;
+}
+
+/* text-image close */
+.banner-content h1 {
+  margin-bottom: 10px; /* Reduce space below the heading */
+}
+
+.banner-content p {
+  margin-bottom: 10px; /* Reduce space below the paragraph */
+}
+.banner-img_bottom img {
+  margin-top: -10px; /* Decrease the space above the image */
+}
+.banner-container {
+  padding-bottom: 0; /* Remove any extra padding between text and image */
 }
