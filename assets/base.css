@@ -3603,7 +3603,7 @@ details-disclosure > details {
 /* CSS FOR BANNER */
 .banner-container {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   /* justify-content:space-between; */
   background-color: #fff;
 }
