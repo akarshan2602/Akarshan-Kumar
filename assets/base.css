@@ -3641,10 +3641,14 @@ details-disclosure > details {
   height:auto;
   object-fit: cover;
 }
-
+.banner-img_top{
+  width:100%;
+  text-align:center;
+}
 .banner-img_top img{
   width: 80%;
   height:auto;
+  display:block;
+  margin: 0 auto;
   object-fit: cover;
-  padding-left:10px;
 }
