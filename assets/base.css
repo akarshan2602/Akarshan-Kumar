@@ -3650,8 +3650,9 @@ details-disclosure > details {
   justify-content: space-around;    /* Centers content horizontally */
   text-align: center;         /* Center text alignment */
   line-height: 55px;         /* Line height for vertical centering (if needed) */
-  transition: background 0.5s; /* Smooth background transition */
-  color: white;               /* Text color */
+  transition: color 0.4s ease-in-out;
+  background: linear-gradient(to right, #000 50%, yellow 50%);
+  background-size: 200%;  
 }
 
 .banner-button svg {
@@ -3662,7 +3663,9 @@ details-disclosure > details {
 }
 
 .banner-button:hover {
-  background-color: #ff0000; /* Change background color on hover */
+ background-position:right;
+  color: #000;
+  transition: background-position 0.4s ease-in-out, color 0.4s ease-in-out;
 }
 
 .banner-button:hover svg {
