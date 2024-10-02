@@ -3667,7 +3667,7 @@ details-disclosure > details {
 }
 
 .banner-content {
-  max-width: 50%; /* Adjusts width of the content */
+  width: 50%; /* Adjusts width of the content */
 }
 
 .banner-content h1 {
@@ -3699,7 +3699,7 @@ details-disclosure > details {
 }
 
 .banner-img_bottom {
-  width: 50%; /* Adjusts the width to be side by side with content */
+  width: 100%; /* Adjusts the width to be side by side with content */
 }
 
 .banner-img_bottom img {
