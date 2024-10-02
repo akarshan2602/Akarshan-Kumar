@@ -3642,6 +3642,8 @@ details-disclosure > details {
 }
 .banner-img_top{
   width:100%;
+  height:auto;
+  max-height:390px;
   text-align:center;
 }
 .banner-img_top img{
