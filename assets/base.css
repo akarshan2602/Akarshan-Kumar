@@ -3625,6 +3625,19 @@ details-disclosure > details {
   color: black;
   line-height:28px;
 }
+.banner-button{
+  display:inline-block;
+  padding:10px 20px;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 20px;
+  transition: background-color 0.3;
+}
 .banner-button:hover{
-  
+  background-color: #ff0000;
+}
+.banner-image img{
+  max-width: 50% !important;
+  object-fit: cover;
 }
