@@ -3601,7 +3601,7 @@ details-disclosure > details {
 
 
 /* CSS FOR BANNER */
-
+/* 
 .custom-banner {
   display: flex;
   align-items: center;
@@ -3640,4 +3640,50 @@ details-disclosure > details {
 .banner-image img{
   max-width: 50%;
   object-fit: cover;
+} */
+
+.banner{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  padding: 50px;
+  position: relative;
+  background-color: #fff;
+}
+.banner-img_top img{
+  width:100%;
+  height:auto;
+  position:absolute;
+  top:0;
+  left:0;
+  z-index: -1;
+}
+
+.banner-content h1{
+  font-size: 70px;
+  font-weight:bold;
+  line-height: 70px;
+}
+.banner-content p{
+  font-size:20px;
+  margin-top:10px;
+  font-weight:400;
+  color: black;
+  line-height:28px;
+}
+.animated-button{
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  margin-top:20px;
+  transition: background-color 0.3s;
+}
+.animated-button:hover{
+  background-color: #ff0000;
+}
+.banner-img_button img{
+  width:50%;
+  height:auto;
+  object-fit:cover;
 }
