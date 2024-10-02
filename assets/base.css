@@ -3647,7 +3647,7 @@ details-disclosure > details {
 }
 .banner-img_top img{
   width: 100%;
-  height:auto;
+  height:80%;
   display:block;
   margin: 0;
   object-fit: cover;
