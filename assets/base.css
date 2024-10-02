@@ -3607,7 +3607,7 @@ details-disclosure > details {
   align-items: center;
   justify-content:space-between;
   background-color: #fff;
-  margin: 0 auto;
+  margin-left:20px;
 }
 
 .banner-content{
