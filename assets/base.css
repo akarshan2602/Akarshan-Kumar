@@ -3634,49 +3634,47 @@ details-disclosure > details {
   line-height: 1.5;
   margin-bottom: 20px; /* Space between paragraph and button */
 }
-
 .banner-button {
   margin-top: 10px;           /* Space above the button */
   width: 50%;                 /* Button width (adjustable) */
-  max-width: 220px;          /* Maximum width of the button */
+  max-width: 220px;           /* Maximum width of the button */
   height: 55px;               /* Button height */
-  background-color: #000;     /* Background color */
+  background-color: #000;     /* Initial background color */
   border: none;               /* No border */
-  border-radius: 3px;        /* Rounded corners */
-  font-size: 16px;           /* Font size */
+  border-radius: 3px;         /* Rounded corners */
+  font-size: 16px;            /* Font size */
   cursor: pointer;            /* Pointer cursor on hover */
   display: inline-flex;       /* Use flexbox for alignment */
   align-items: center;        /* Vertically centers text and icon */
-  justify-content: space-around;    /* Centers content horizontally */
+  justify-content: space-around; /* Centers content horizontally */
   text-align: center;         /* Center text alignment */
-  line-height: 55px;         /* Line height for vertical centering (if needed) */
-  color:white;
+  line-height: 55px;          /* Line height for vertical centering (if needed) */
+  color: white;               /* Initial text color */
   transition: color 0.4s ease-in-out;
   background: linear-gradient(to right, #000 50%, yellow 50%);
   background-size: 200%;  
+  background-position: right; /* Initial background position */
 }
 
 .banner-button svg {
-  margin-left: 10px; /* Space between text and arrow */
-  fill: #fff;        /* Color of the arrow */
-  width: 30px;       /* Set width of the SVG icon */
-  height: 30px;      /* Set height of the SVG icon */
+  margin-left: 10px;          /* Space between text and arrow */
+  fill: #fff;                 /* Color of the arrow */
+  width: 30px;                /* Set width of the SVG icon */
+  height: 30px;               /* Set height of the SVG icon */
+  transition: margin-left 0.3s ease-in-out; /* Smooth transition for the icon */
 }
 
 .banner-button:hover {
- background-position:left;
-  color: #000;
+  background-position: left;  /* Moves gradient from black to yellow, left to right */
+  color: #000;                /* Change text color to black */
   transition: background-position 0.4s ease-in-out, color 0.4s ease-in-out;
 }
 
 .banner-button:hover svg {
-  margin-left: 15px; /* Moves the arrow on hover */
-  transition: margin-left 0.3s; /* Smooth transition for margin */
+  margin-left: 15px;          /* Moves the arrow on hover */
+  transition: margin-left 0.3s ease-in-out; /* Smooth transition for margin */
 }
 
-.banner-button:hover {
-  background-color: #ff0000;
-}
 
 .banner-img_bottom {
   flex-grow: 1; /* Allows the image to take up available space */
