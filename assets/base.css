@@ -3663,7 +3663,7 @@ details-disclosure > details {
 }
 
 .banner-button:hover {
- background-position:right;
+ background-position:left;
   color: #000;
   transition: background-position 0.4s ease-in-out, color 0.4s ease-in-out;
 }
